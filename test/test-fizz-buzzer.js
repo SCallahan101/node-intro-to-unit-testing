@@ -15,12 +15,11 @@ describe('fizzBuzzer', function() {
       expect(answer).to.equal(input.expected);
     });
   });
-  
+
   it('The input is non-numeric so therefore it is invalid input', function() {
     const badInputs = [
       ['hello'],
-      ['1'],
-      [....]
+      ['1']
     ];
     badInputs(function(input) {
     expect(function() {
